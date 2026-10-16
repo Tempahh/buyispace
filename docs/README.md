@@ -34,6 +34,14 @@ Pilot: Used phones / selected electronics · Computer Village / Lagos · Nigeria
 | V | [Event Catalog](./vol-5-event-catalog.md) | Every domain event: schema, version, producer, consumers, idempotency rules, flow diagrams | Engineering |
 | VI | [Build Roadmap & Timeline](./vol-6-build-roadmap.md) | Week-by-week task breakdown for a 5-person team, milestones, risk register, cost plan | All |
 
+## Programmer RFQ Breakout
+
+The [programmer RFQ breakout](./programmer-rfq-breakout/README.md) follows the
+8 October 2026 quotation request, with its Gate 0 and M0–M7 milestones, scoped
+backlog, acceptance controls, and blank NGN quotation response template. It is
+a standalone quotation breakout and does not update or constrain the older
+engineering suite above.
+
 ---
 
 ## Volume Summaries
