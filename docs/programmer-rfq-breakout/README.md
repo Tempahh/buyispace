@@ -17,6 +17,7 @@ or approvals that have not been provided.
 | [Milestone and backlog breakout](./01-milestone-breakout.md) | Gate 0 and M0–M7, the RFQ backlog IDs and their scope boundaries |
 | [Acceptance, dependencies, and repository context](./02-acceptance-and-repository-context.md) | Cross-milestone controls, release tests, external dependencies, and optional background references |
 | [Quotation response template](./03-quotation-response-template.md) | Blank NGN estimate table, delivery-owner/team response, assumptions, exclusions, and questions |
+| [Draft V1 quotation](./04-draft-quotation-v1.md) | NGN 5m programmer/build cap, milestone pricing, delivery assumptions, and separate infrastructure/operating estimates for review |
 
 ## Governing inputs
 
@@ -48,6 +49,8 @@ Use the labels exactly as defined by the RFQ:
 - **MANUAL_V1_ALLOWED** — human assistance is allowed for the flagged
   operational step only; authoritative records and controls are still required.
 
-The milestone estimates in the response template are intentionally blank.
-Estimates, provider assumptions, delivery owners, and validity must come from
-the programmer responding to the RFQ.
+The quotation response template remains blank for a prospective programmer to
+complete. The separate draft quotation is a budgetary estimate prepared from
+the breakout scope and main-repository cost assumptions; its price, staffing,
+and schedule must be validated with the programmer and governing documents
+before it is treated as an offer.
