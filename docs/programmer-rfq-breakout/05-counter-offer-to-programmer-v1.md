@@ -1,188 +1,192 @@
-# BUYI V1 Programmer RFQ — Counterproposal
+# BUYI V1 Programmer RFQ — Programmer's Counter-Offer
 
-**Prepared for:** BUYIspace Technologies Ltd.  
+**From:** Programmer / intended Principal Engineer
+**To:** BUYIspace Technologies Ltd.
 **Date:** 3 November 2026  
-**Status:** Commercial counterproposal for discussion; not a signed contract or authorization to begin development  
+**Status:** Counter-offer for discussion; subject to the signed development agreement and written authorization
 **Currency:** Nigerian Naira (NGN)
 
-## 1. Position
+## 1. Response to BUYI's engineering review
 
-BUYI appreciates the programmer's conditional budgetary draft and the
-engineering review in the **BUYI V1 Engineering Review & Completion Pack
-(28 October 2026)**.
-The review pack is a useful reconciliation and control document, but it is not
-a revised quotation: it identifies corrections and gates without proposing a
-replacement price or delivery plan.
+Thank you for the **BUYI V1 Engineering Review & Completion Pack** dated
+28 October 2026. I agree that it is a useful reconciliation and delivery-control
+document. I understand it is not implementation authorization and remains
+subordinate to the locked October 5 Core, Master Decision Register, and
+canonical Programmer Package v1.1.
 
-BUYI does **not** accept ₦5,000,000 and 105 working days as a firm price and
-schedule for completing the full M0–M7 V1 scope until the basis is reconciled.
-The quotation identifies one primary delivery engineer, and BUYI understands
-that you are the intended principal engineer; the issue is not that the
-technical lead is unknown. The quotation should confirm your delivery
-allocation and clarify which implementation, testing, and independent-review
-responsibilities you will own versus any supporting personnel or BUYI-supplied
-work. The estimate may be achievable under a lean, tightly bounded delivery
-model, but the submitted breakdown does not yet substantiate the effort,
-capacity, risk allowance, or independent security/financial review. It also
-prices the M0 identity-change safeguard as a design, while the review pack
-requires working enforcement before live settlement.
+I am the intended Principal Engineer and propose to lead the implementation.
+My counter-offer retains the RFQ's Gate 0 and M0–M7 structure and the current
+V1_REQUIRED scope. It clarifies the staffing and delivery basis, explicitly
+includes the identity-change safeguard's design and later enforcement, and
+maps the required tests and external dependencies. It does not silently remove
+required controls to fit the earlier figure.
 
-The RFQ scope and its V1_REQUIRED acceptance criteria remain unchanged for
-quotation purposes. No required controls or release tests may be silently
-removed to fit the earlier cap.
+## 2. Commercial counter-offer
 
-## 2. Commercial proposal
+| Work | Fee (NGN) | Duration | Commercial basis |
+|---|---:|---:|---|
+| Gate 0 — Handoff readiness | **₦250,000** | Up to 5 working days | Fixed fee for authority reconciliation, delivery plan, dependency register, and final milestone schedule. No substantial domain implementation. |
+| M0–M7 — V1 delivery | **₦4,850,000** | 100 working days | Fixed-scope programmer/build fee for the RFQ backlog and acceptance gates, on the assumptions in this offer. |
+| **Total programmer/build fee** | **₦5,100,000** | **105 working days total** | Gate 0 plus M0–M7; excludes separately identified third-party and operating costs. |
 
-### Gate 0 — the only presently priced engagement
+The M0–M7 price remains the original ₦4,850,000 milestone allocation. The
+Gate 0 fee is countered at ₦250,000, making the revised total ₦5,100,000.
+Schedule is five Gate 0 working days plus 100 M0–M7 working days, excluding
+BUYI/provider/legal/pilot delays and other agreed pauses. The schedule begins
+only after the required written authorization, signed agreement, and provision
+of the governing inputs and access.
 
-BUYI is prepared to consider Gate 0 at **₦150,000 for up to five working days**,
-subject to a signed development/protection agreement and written Gate 0
-authorization. Gate 0 is limited to handoff, reconciliation, and estimation;
-it is not authorization for substantial domain coding.
+### Milestone fees
 
-Gate 0 must produce:
+| Milestone | Fee (NGN) | Working days |
+|---|---:|---:|
+| Gate 0 — Handoff readiness | ₦250,000 | 5 |
+| M0 — Skeleton | ₦600,000 | 10 |
+| M1 — Truth & Agreement | ₦600,000 | 10 |
+| M2 — Execution Core | ₦700,000 | 15 |
+| M3 — Outcome & Review | ₦550,000 | 10 |
+| M4 — Problem & Recovery | ₦600,000 | 15 |
+| M5 — Closing & Money | ₦900,000 | 20 |
+| M6 — Pilot Operations | ₦450,000 | 10 |
+| M7 — First Public Door | ₦450,000 | 10 |
+| **Total** | **₦5,100,000** | **105** |
 
-- Acknowledgement of the governing-document hierarchy and a list of any
-  conflicts or missing authorities.
-- A mapping of proposed commands, events, guards, and authority sources to the
-  canonical Event Catalog and AUTH-001–018; unresolved items remain pending
-  and are not implemented.
-- A dependency and decision register with named owners and the milestones
-  blocked by each item.
-- Confirmation that you are the intended principal engineer and delivery
-  owner; document your responsibilities, allocation, availability, and any
-  additional proposed staff or BUYI-supplied work.
-- A revised, itemized fixed-price quotation for M0–M7, with assumptions,
-  inclusions, exclusions, milestone durations, acceptance evidence, and a
-  dependency-aware schedule.
-- A refreshed, separately funded estimate for infrastructure and other
-  operating costs, based on identified providers and current quotes where
-  available.
+Each milestone fee includes implementation, relevant migrations, automated
+tests, concise technical documentation, a reproducible build, and a
+demonstration against that milestone's RFQ acceptance gate. BUYI's written
+acceptance remains the technical acceptance record.
 
-Gate 0 acceptance does not automatically award M0 or any later milestone.
+## 3. Delivery and scope commitments
 
-### M0–M7 — conditional award after Gate 0
+### Principal Engineer and BUYI responsibilities
 
-After reviewing and accepting the Gate 0 outputs, BUYI will consider a
-separate written award for M0–M7. The programmer must quote the full RFQ scope
-and acceptance gates before that award. The earlier **₦5,000,000 cap is not an
-approved full-V1 budget** and must not be used to imply that the full scope can
-be delivered for that amount.
+- I will be the named Principal Engineer and primary delivery owner for
+  architecture, domain implementation, integration boundaries, code review,
+  automated tests, and handover across M0–M7.
+- Gate 0 will record the planned allocation and availability, plus any
+  supporting personnel or BUYI-supplied work, in the milestone schedule.
+- BUYI supplies timely product/domain decisions, a product owner, company
+  repository and accounts, provider/legal contacts, and pilot operations and
+  participants where required.
+- Any independent security or financial review requiring a separate reviewer
+  is **not included** in the programmer/build fee. I will identify the review
+  scope and gate; BUYI may appoint/pay the independent reviewer directly or
+  authorize a separately priced engagement.
 
-The revised quote must show, for each milestone:
+### Identity-change safeguard
 
-| Required quotation item | Required detail |
-|---|---|
-| Fee | Fixed NGN milestone fee, with taxes and any conditional charges identified |
-| Effort | Estimated working days and allocation by named role; identify any BUYI-supplied work |
-| Schedule | Planned start, duration, critical-path dependencies, and what pauses the clock |
-| Deliverables | Code, migrations, tests, documentation, reproducible build, and demonstration evidence |
-| Acceptance | Applicable RFQ gate, required test evidence, reviewer, and written BUYI acceptance |
-| Exclusions | Provider, legal, infrastructure, pilot, and other costs, with payer and current estimate/source |
-| Change control | Written scope, fee, timing, dependency, and acceptance impact before work starts |
+- **M0 (₦600,000):** Deliver the RFQ-required ticketed, testable design for
+  new-device access, account recovery, credential reset, and payout-destination
+  change, including the scoped hold, independent confirmation/review boundary,
+  audit requirements, and tests/design evidence.
+- **M5 (₦900,000):** Implement and test the enforcement needed to prevent those
+  changes, or SMS OTP alone, from enabling immediate settlement. Map test T07
+  to the relevant implementation and test evidence.
+- No live settlement is authorized by delivery of code alone. It remains gated
+  on passing evidence, BUYI policy decisions, and the independent review
+  required by BUYI.
 
-Any budget ceiling BUYI later sets must be handled through a written scope
-decision before award. It cannot be met by omitting required tests, weakening
-authority or audit controls, treating manual activity as system truth, or
-quietly deferring V1_REQUIRED work.
+### Release tests and money boundaries
 
-## 3. Technical and delivery conditions
+The M0–M7 fee includes implementation and demonstration of the 14 RFQ release
+tests. The test plan will identify each test's milestone, automated test or
+evidence, environment, provider/physical-pilot dependency, and BUYI acceptance
+record. Provider `UNKNOWN` remains `UNKNOWN` until reconciled against
+authoritative evidence. Funding mocks, provider instructions, delivery, check
+results, OTP, and manual operations will not be represented as authoritative
+financial or participant-consent facts.
 
-1. **Governing inputs:** Reconcile the October 5 locked Core and Master Decision
-   Register, canonical Programmer Package v1.1, the RFQ, and this breakout.
-   The review pack is subordinate and does not approve new product or provider
-   rules. Record conflicts for BUYI decision; do not resolve them by assumption.
-2. **Commands and authority:** Map every implemented consequential command,
-   event, guard, and authority source to the governing catalog and matrix.
-   Descriptive labels in the review pack are not approval of new identifiers.
-3. **Identity-change safeguard:** M0 must deliver the required ticketed,
-   testable design. The revised quote must separately identify the engineering
-   work and tests for enforcing the scoped hold and independent confirmation /
-   review before live settlement. SMS OTP alone must never authorize immediate
-   settlement. Live settlement is gated on successful tests and the required
-   independent review.
-4. **Funding dependencies:** M1/M2 must define and test readiness and funding
-   boundaries without presenting a mock or provider instruction as real
-   funding confirmation. Provider `UNKNOWN` remains `UNKNOWN` until reconciled
-   against authoritative evidence.
-5. **Release tests:** Map all 14 RFQ release tests to their milestone, automated
-   test/evidence, environment, provider test account or physical-pilot
-   dependency, and acceptance record. The quote must include the effort to
-   implement and demonstrate them.
-6. **Security and quality ownership:** Identify who owns automated test
-   coverage, integration testing, deployment/reproducibility, and security
-   review. Price independent review separately if it is not included in the
-   delivery team.
-7. **Money and launch gates:** No live funds, settlement, or public launch is
-   implied by software acceptance. These require the applicable provider,
-   legal, security, and operational confirmations.
-8. **Repository and handover:** All source, migrations, tests, build
-   instructions, configuration needed to reproduce the build, and operating
-   documentation reside in BUYI-controlled accounts. No shared credentials.
-9. **Acceptance and payment:** Payment, elapsed time, silence, or a UI status
-   is not technical acceptance. Any milestone payment schedule, including
-   advances, must be stated in the signed agreement and tied to the written
-   acceptance and remedies agreed there.
+M1/M2 will establish and test readiness/funding interfaces and guards. Provider
+specific funding, settlement, refund, webhook, and reconciliation behavior is
+completed against the selected provider's documented sandbox and available
+test capabilities in M5. BUYI/provider/legal confirmation is a prerequisite
+for any live-money activity; software milestones do not constitute such
+approval.
 
-## 4. Separate costs and estimate reliability
+The quoted scope is the RFQ's V1_REQUIRED backlog plus ARCHITECT_NOW
+foundations, with MANUAL_V1_ALLOWED operations recorded under the required
+BUYI controls. ENABLE_LATER and NOT_IN_CURRENT_SCOPE features remain excluded.
 
-Infrastructure, provider fees, legal advice, data-protection obligations,
-pilot operations, and third-party services are separate from programmer fees.
-The earlier infrastructure figures are planning assumptions, not confirmed
-vendor quotations. The revised estimate must reconcile line items against
-subtotals and identify which services are needed for a controlled pilot versus
-live funds.
+## 4. Gate 0 deliverables and dependencies
 
-For context only, the earlier programmer/build estimate averages approximately
-**₦47,619 per working day** across Gate 0 and M0–M7 (₦5,000,000 ÷ 105 days).
-That arithmetic does not establish a fair market rate or prove the estimate
-impossible. In light of the intended principal engineer being me, it should
-not be treated as evidence that the lead is missing or that the price is
-automatically too low. It does show why the quote needs a capacity and effort
-basis: the single-primary-engineer plan includes consequential state,
-evidence, payment-provider, settlement/refund, operations, and customer-flow
-work, while the review pack also calls for complete test evidence and
-independent security/financial review. A revised quote should show which of
-those responsibilities are included in the fee and schedule.
+Within up to five working days after Gate 0 authorization and receipt of the
+necessary materials, I will:
 
-## 5. Ready-to-send response
+1. Reconcile the supplied October 5 authorities, RFQ, breakout, and review
+   pack; list conflicts and unresolved product, provider, legal, or operational
+   decisions without inventing answers.
+2. Map proposed commands, events, guards, and authority sources to the
+   canonical Event Catalog and AUTH-001–018. Any unmapped or conflicting item
+   remains blocked pending BUYI decision.
+3. Confirm delivery roles, planned allocation, milestones, schedule, acceptance
+   evidence, and BUYI-supplied responsibilities.
+4. Map all 14 release tests to milestone, test/evidence, environment,
+   provider/physical-pilot dependency, and acceptance record.
+5. Confirm the funding dependency boundary for M1/M2 and provider-specific
+   work/test prerequisites for M5.
+6. Refresh separately funded infrastructure and operating-cost assumptions;
+   distinguish planning estimates from confirmed vendor quotes.
 
-> We have reviewed the ₦5,000,000 / 105-working-day budgetary draft and the
-> 28 October Engineering Review & Completion Pack. We find the review pack
-> useful, but it is not a priced counterproposal. We are not accepting the
-> current amount and duration as a firm price for the full M0–M7 V1 scope,
-> particularly while effort, allocation of the intended principal engineer
-> (me), the identity-change safeguard, release test evidence, provider
-> dependencies, and independent review remain unconfirmed.
->
-> We are prepared to consider Gate 0 at ₦250,000 for up to five working days
-> under a signed agreement and written authorization. Please include the
-> reconciliation and revised-quotation deliverables in Section 2. Gate 0 does
-> not authorize substantial coding or automatically award later work.
->
-> Following Gate 0, please submit a complete itemized fixed-price quotation
-> and dependency-aware schedule for the unchanged M0–M7 RFQ scope. Identify
-> your named role and allocation, any supporting staff; price working
-> enforcement of the identity-change
-> safeguard before live settlement; map all 14 release tests; explain the
-> M1/M2 funding boundary; and separate current, verified third-party costs
-> from programmer fees. Do not remove required controls or tests to meet the
-> previous cap. Any scope or budget adjustment requires a written decision
-> before award.
->
-> This is a request to revise and clarify the quotation, not a development
-> contract, acceptance of the earlier full-build estimate, or authorization
-> for work beyond an expressly authorized Gate 0.
+The following are BUYI/provider/legal/operations dependencies. Their absence
+pauses affected work and the delivery clock; it does not convert an unresolved
+decision into an implementation assumption:
 
-## 6. Approval record
+- Locked Core, Master Decision Register, canonical Programmer Package v1.1,
+  and completed authority/event references.
+- Product policy and privacy decisions, including reservation/review periods,
+  holds, recovery, payout timing, and sensitive-field access.
+- Selected provider, sandbox credentials and documentation, plus written
+  confirmation of custody, settlement/refund capabilities, reversals, and
+  reconciliation semantics.
+- Legal advice and executed agreements applicable to development and any
+  regulated or live-money activity.
+- Test participants, controlled supply, qualified checkers/carriers, and
+  staged physical-pilot availability.
+- BUYI-controlled repository, environments, named accounts, and required
+  access.
 
-This counterproposal is for negotiation only. It becomes binding only through a
-separately executed agreement and a written authorization specifying the
-awarded work, price, schedule, and acceptance terms.
+## 5. Exclusions and change control
 
-| For BUYIspace Technologies Ltd. | Programmer / delivery provider |
+The ₦5,100,000 fee excludes cloud infrastructure, third-party tools and
+provider charges, legal and regulatory advice/fees, independent security or
+financial review, and pilot operating expenses. They require BUYI approval and
+are payable separately to the relevant provider/reviewer or under a separate
+written authorization. The earlier operating-cost figures are estimates, not
+vendor quotations.
+
+Any change to backlog, approved authority, acceptance criteria, provider
+count, or delivery responsibilities will be documented before work proceeds,
+with its fee, schedule, dependency, and acceptance impact. No unapproved
+additional work is implied.
+
+All source, migrations, tests, documentation, build instructions, and
+reproducible build artifacts will be delivered in BUYI-controlled accounts
+with named, least-privilege access. No shared credentials are required.
+
+## 6. Proposed payment and acceptance terms
+
+For discussion, I propose:
+
+- Gate 0: ₦250,000 following signed agreement and written Gate 0 authorization.
+- M0–M7: 30% of each milestone fee on written authorization to start that
+  milestone; 70% after the acceptance evidence is demonstrated and BUYI gives
+  written acceptance.
+- No silence, elapsed time, payment, or user-interface status constitutes
+  technical acceptance.
+- Taxes, invoicing dates, response/review periods, termination, delay remedies,
+  intellectual-property assignment, confidentiality, and background-IP
+  schedules are to be agreed in the signed development agreement.
+- This counter-offer does not authorize work. Gate 0 and each subsequent
+  milestone require the applicable written authorization.
+
+## 7. Acceptance of counter-offer
+
+This is the programmer's counter-offer to BUYI for negotiation. It becomes
+binding only when incorporated into a separately executed development
+agreement and expressly authorized in writing by both parties.
+
+| Programmer / Principal Engineer | For BUYIspace Technologies Ltd. |
 |---|---|
 | Name: ______________________________ | Name: ______________________________ |
-| Title: ______________________________ | Company: ___________________________ |
 | Signature: __________________________ | Signature: __________________________ |
 | Date: _______________________________ | Date: _______________________________ |
