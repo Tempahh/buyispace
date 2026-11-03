@@ -18,6 +18,7 @@ or approvals that have not been provided.
 | [Acceptance, dependencies, and repository context](./02-acceptance-and-repository-context.md) | Cross-milestone controls, release tests, external dependencies, and optional background references |
 | [Quotation response template](./03-quotation-response-template.md) | Blank NGN estimate table, delivery-owner/team response, assumptions, exclusions, and questions |
 | [Draft V1 quotation](./04-draft-quotation-v1.md) | NGN 5m programmer/build cap, milestone pricing, delivery assumptions, and separate infrastructure/operating estimates for review |
+| [Counterproposal to programmer](./05-counter-offer-to-programmer-v1.md) | Conditional Gate 0 offer and requirements for a complete, priced M0–M7 quotation |
 
 ## Governing inputs
 
